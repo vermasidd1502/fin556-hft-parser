@@ -1,0 +1,29 @@
+# market data and outputs: NEVER commit
+*.pcap
+*.pcapng
+*.pcap.zst
+*.pcap.gz
+*.zst
+*.parquet
+*.csv
+*.csv.gz
+*.txt.gz
+*.dbn
+*.dbn.zst
+out/
+data/
+raw/
+logs/
+*.log
+bars_*.txt
+ticks_*.txt*
+# build outputs
+itch_fast
+itch_fast2
+mdp3_fast
+mdp3_fast2
+*.o
+# python / os
+__pycache__/
+*.pyc
+.DS_Store
